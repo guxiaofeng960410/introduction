@@ -1,0 +1,27 @@
+{
+  "name": "introduction",
+  "version": "1.0.0",
+  "description": "personal introduction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "keywords": [
+    "introduction"
+  ],
+  "author": "guxiaofeng",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "scrollreveal": "^4.0.5"
+  }
+}

@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font: 16px/1.1  Helvetica, Arial, sans-serif; 
+    width: 100%;
+}
+
+canvas{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+}
+
+/****  introduction *****/
+section.introduction{
+    width: 65%;
+    height: 100vh;
+    margin-left: 20%;
+    background-color: #fff;
+    z-index: 2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/**** part1 bascal imformation ***/
+.part1{
+    padding-top: 16px;
+    border-bottom: 2px solid rgb(163, 4, 115);
+    display: inline-block;
+    width: 100%;
+}
+
+.part1 h{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.part1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 6vh 5vh 10vh;
+}
+
+.part1 img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 100px;
+    height: 140px;
+}
+
+.part1 h{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+div.box label, div.box p{
+    display: inline-block;
+    font-size: 1rem;
+}
+
+label{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+} 
+
+.part1 div{
+    margin-top: 1rem;
+}
+/******* part2 education ***/
+.school div{
+    font-weight: 600;
+
+}
+
+div.school{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.school{
+    margin: 0.5rem 0;
+}
+
+.part2{
+    border-bottom: 2px solid rgb(163, 4, 115)
+}
+
+.part2{
+    margin-top: 0.5rem;
+}
+
+.part2 label{
+    color:  rgb(163, 4, 115);
+}
+
+/***** part3 work **********/
+.part3{
+    border-bottom: 2px solid rgb(163, 4, 115);
+    padding-bottom: .5rem;
+} 
+
+.work_1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+p.work{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(163, 4, 115);
+}
+
+/***** part4 *****/
+.part4{
+    margin-top: 1rem;
+    border-bottom: 2px solid rgb(163, 4, 115);
+}
+
+.experience{
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.experience h{
+    color:rgb(163, 4, 115);
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: block;
+}
+
+
+.experience>li{
+    text-indent: 2em;
+    padding-top: 1rem;
+}
+
+/******   part5   *****/
+.part5{
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid rgb(163, 4, 115);
+}
+
+.part5 h{
+    color: rgb(163, 4, 115);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.part5 div{
+    text-indent: 2em;
+    font-weight: 600;
+}
+
+/***** part6 *********/
+.part6 h{
+    color: rgb(163, 4, 115);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.part6{
+    margin-top: 1rem;
+}
+
+.part6 p{
+    text-indent: 2em;
+    font-weight: 600;
+    display: inline-block;
+}
